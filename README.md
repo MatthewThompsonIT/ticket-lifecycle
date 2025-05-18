@@ -17,10 +17,10 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Ticket Lifecycle Stages</h2>
 
-- [Intake](https://github.com/MatthewThompsonIT/ticket-lifecycle/edit/main/README.md#intake)
-- [Assignment and Communication]()
-- [Working the Issue]()
-- [Resolution]()
+- [Intake](https://github.com/MatthewThompsonIT/ticket-lifecycle/tree/main?tab=readme-ov-file#intake)
+- [Assignment and Communication](https://github.com/MatthewThompsonIT/ticket-lifecycle/tree/main?tab=readme-ov-file#assignment-and-communication)
+- [Working the Issue](https://github.com/MatthewThompsonIT/ticket-lifecycle/tree/main?tab=readme-ov-file#working-the-issue)
+- [Resolution](https://github.com/MatthewThompsonIT/ticket-lifecycle/tree/main?tab=readme-ov-file#resolution)
 
 <h2>Intake</h2>
 
