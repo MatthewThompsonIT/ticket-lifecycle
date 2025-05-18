@@ -49,10 +49,9 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 ![image](https://github.com/user-attachments/assets/e4b69301-460b-4d61-af5a-b3bf36c995e1)
 
+<h2>Assignment and Communication</h2>
+
 - Now lets sign into the Admin Panel as John (http://localhost/osTicket/scp/login.php)
-
-![image](https://github.com/user-attachments/assets/839058a2-c5ff-4722-8d1d-5ea63d6a560b)
-
 - There will be the ticket that we just created
 - Click on the ticket
 
@@ -70,11 +69,11 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - The SLA Plan is "Default SLA"
 - The Help Topic is "Report a Problem"
 - All of this needs to be changed as it does not match the urgency of the ticket
-  - We want to change the ticket properties to:
+- We want to change the ticket properties to:
+  - Priority: "Emergency"
   - SLA Plan: Sev-A (1 hour, 24/7)
   - Assigned To: Online Banking Department
   - Help Topic: "Report a Problem/ Business Critical Outage"
-
 - Click on the "SLA Plan:"
 - Change the SLA to: "SEV-A" as this is an urgent problem
 - For the description write: "Wide impact, customers are unable to do online banking."
@@ -92,6 +91,13 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - For the description write: Customers are unable to access the Online Banking portal. Assinging to the Online Banking Team.
 
 ![image](https://github.com/user-attachments/assets/ce4fa9b8-17cc-49a3-b595-9c7a387ab4fd)
+
+- Click on "Priority"
+- Change the Priority Level to "Emergency"
+
+![image](https://github.com/user-attachments/assets/9d7eb967-6029-4009-ab54-6bd50e93deda)
+
+<h2>Working the Issue</h2>
 
 - Now lets work the ticket to completion as Jane
 - Log out of the John account
@@ -112,9 +118,20 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 ![image](https://github.com/user-attachments/assets/cad9c869-44cc-434e-9e53-a3281b205020)
 
+<h2>Resolution</h2>
 
+>[!NOTE]
+> We are going to act like the problem was discovered and was actually the update
 
+- Notify Karen again that the update was the issue
+- Create another reply
+- Fill out the reply with: "It was determined that the root cause was the recent update. We rolled it back, notified the vendor, and are waiting for a proper fix. Online banking should now be back up and running.
 
+![image](https://github.com/user-attachments/assets/ee707b48-5d29-44c3-ab65-5ba6f90a455c)
+
+- Now that the issue has been fixed we can change the ticket status to: "Resolved"
+
+![image](https://github.com/user-attachments/assets/c5fe6f72-bde2-40c7-ad28-41934c87cf00)
 
 
 
